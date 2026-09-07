@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Mahek Shaikh — AI/ML Engineer Portfolio"
+description = "A dynamic technical portfolio for Mahek Shaikh, an AI/ML Engineer and Applied AI Researcher, with interactive case studies, architecture diagrams, research signals, and live GitHub project data."
+version = "1.0.0"
+id = "artifacts/mahek-ai-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20734
+
+[services.development]
+run = "pnpm --filter @workspace/mahek-ai-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mahek-ai-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/mahek-ai-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20734"
+BASE_PATH = "/"

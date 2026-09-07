@@ -1,0 +1,139 @@
+The website is already perfect. **DO NOT redesign, restructure, or change the existing website.**
+
+I only want TWO changes:
+
+## 1. CHANGE THE COLOUR SCHEME
+
+Replace the current blue-dominant colour palette with:
+
+**BLACK + DEEP PURPLE + ELECTRIC VIOLET + VERY SUBTLE RED**
+
+Background:
+
+* `#050308`
+* `#08050D`
+* `#0B0710`
+
+Primary:
+
+* `#7C3AED`
+* `#8B5CF6`
+* `#A855F7`
+
+Secondary:
+
+* `#C026D3`
+
+Very subtle red:
+
+* `#EF4444`
+* `#B91C1C`
+
+Purple should be the dominant accent.
+
+Black should remain the dominant background.
+
+Red should appear only occasionally in tiny highlights, status indicators, borders, or subtle visual details.
+
+**Remove the blue theme completely.**
+Do not introduce cyan or green.
+
+---
+
+## 2. ADD A CINEMATIC “MAHEK SHAIKH” INTRO AT THE TOP
+
+Keep the existing hero content and layout, but add a **subtle animated introduction when the page initially loads**.
+
+I want my name:
+
+# MAHEK SHAIKH
+
+to appear through a beautiful **floating-letter animation**.
+
+The feeling should be:
+
+**individual letters floating/drifting through darkness → slowly converging → forming “MAHEK SHAIKH” → smoothly transitioning into the existing hero.**
+
+For example, initially the screen can be almost black with very subtle purple particles:
+
+```text
+        M
+
+   A
+
+              H
+
+      E
+
+                    K
+```
+
+Then the letters smoothly move into their correct positions:
+
+```text
+MAHEK SHAIKH
+```
+
+Once the name is formed, it should subtly glow in **electric purple**, then transition naturally into the existing hero section.
+
+### Animation style
+
+Make it:
+
+* cinematic
+* smooth
+* elegant
+* futuristic
+* mysterious
+* premium
+* slightly hacker/AI-lab inspired
+
+NOT:
+
+* cheesy
+* glitch-heavy
+* gaming-style
+* excessive Matrix effects
+* huge explosions
+* excessive particles
+
+The letters should feel like they are being **assembled from data**.
+
+A very subtle purple glow and a few faint red particles/highlights can be used.
+
+---
+
+## IMPORTANT
+
+The name animation should happen **only on the initial page load**, not every time the user scrolls back to the top.
+
+After the intro finishes, the website should behave exactly as it currently does.
+
+### DO NOT CHANGE ANYTHING ELSE
+
+Do NOT modify:
+
+* existing layout
+* sections
+* content
+* project cards
+* typography
+* navigation
+* architecture diagrams
+* animations already present
+* spacing
+* responsiveness
+* functionality
+* links
+* GitHub integration
+* project information
+* metrics
+* buttons
+
+The final result should be:
+
+**EXACT SAME WEBSITE + BLACK/PURPLE/RED COLOUR SCHEME + CINEMATIC MAHEK SHAIKH FLOATING-LETTER INTRO.**
+
+The overall first impression should be:
+
+> **A sophisticated AI engineer's personal research terminal.**

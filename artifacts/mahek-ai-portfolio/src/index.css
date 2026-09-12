@@ -124,4 +124,16 @@ a { text-decoration: none; }
 [class*="border-[#8aaeff]"], [class*="border-[#809bd5]"] { border-color: #8b5cf6 !important; }
 [class*="border-[#90cbb4]"], [class*="border-[#92c9b3]"] { border-color: #a855f7 !important; }
 [class*="bg-[#8aaeff]"], [class*="bg-[#b1a1f4]"] { background-color: rgba(124,58,237,.14) !important; }
-[class*="bg-[#90cbb4]"], [class*="bg-[#92c9b3]"] { background-color: rgba(168,85,247,.08) !important; }
+[class*="bg-[#90cbb4]"] { background-color: rgba(168,85,247,.08) !important; }
+[class*="bg-[#92c9b3]"] { background-color: rgba(239,68,68,.12) !important; }
+[class*="border-[#9aafd6]"], [class*="border-[#a4b4d0]"] { border-color: rgba(139,92,246,.2) !important; }
+[class*="text-[#a8bce8]"], [class*="text-[#b9c8ec]"], [class*="text-[#d5e0ff]"] { color: #c4b5fd !important; }
+[class*="text-[#aab8d2]"], [class*="text-[#aab3c5]"], [class*="text-[#a5afc1]"], [class*="text-[#a9b3c5]"], [class*="text-[#aeb9cb]"] { color: #aaa0b8 !important; }
+[class*="text-[#9ba6b8]"], [class*="text-[#9da8ba]"], [class*="text-[#8491a8]"], [class*="text-[#8490a5]"], [class*="text-[#818b9d]"], [class*="text-[#8792a6]"], [class*="text-[#8894a9]"], [class*="text-[#68748a]"], [class*="text-[#637086]"], [class*="text-[#626d80]"], [class*="text-[#64718b]"], [class*="text-[#6f7b90]"], [class*="text-[#59657b]"] { color: #777080 !important; }
+[class*="text-[#d9e0ed]"], [class*="text-[#d9e1ef]"], [class*="text-[#e3e8f0]"], [class*="text-[#e3e8f1]"], [class*="text-[#e8edf6]"], [class*="text-[#eaf0ff]"] { color: #eeeaf4 !important; }
+[class*="bg-[#202c47]"] { background-color: #24103b !important; }
+[class*="bg-[#11151e]"], [class*="bg-[#11151d]"], [class*="bg-[#10141d]"], [class*="bg-[#0e121a]"], [class*="bg-[#151923]"] { background-color: rgba(11,7,16,.88) !important; }
+
+#home::before { content: ''; position: absolute; inset: 9% 0 18%; pointer-events: none; opacity: .42; background-image: radial-gradient(circle at 73% 20%, rgba(168,85,247,.85) 0 1px, transparent 2px), radial-gradient(circle at 82% 34%, rgba(139,92,246,.7) 0 1px, transparent 2px), radial-gradient(circle at 68% 46%, rgba(124,58,237,.72) 0 1px, transparent 2px), radial-gradient(circle at 88% 64%, rgba(168,85,247,.6) 0 1px, transparent 2px), linear-gradient(32deg, transparent 48.9%, rgba(139,92,246,.16) 49%, transparent 49.4%), linear-gradient(143deg, transparent 49%, rgba(168,85,247,.12) 49.2%, transparent 49.6%); background-size: 100% 100%; mask-image: radial-gradient(ellipse at 75% 42%, black, transparent 66%); }
+#home::after { content: '> initializing_ai_profile...   /   research: active   /   systems: online'; position: absolute; right: 2rem; bottom: 1.25rem; color: rgba(168,85,247,.52); font-family: var(--app-font-mono); font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+@media (max-width: 700px) { #home::after { right: 1.25rem; left: 1.25rem; font-size: .5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }

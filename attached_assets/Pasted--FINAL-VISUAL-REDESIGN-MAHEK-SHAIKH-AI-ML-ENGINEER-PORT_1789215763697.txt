@@ -1,0 +1,1142 @@
+# FINAL VISUAL REDESIGN — MAHEK SHAIKH AI/ML ENGINEER PORTFOLIO
+
+The existing portfolio website is already structurally and functionally strong.
+
+**DO NOT rebuild the website from scratch.**
+**DO NOT change the existing content structure unnecessarily.**
+**DO NOT remove working sections or functionality.**
+
+This is a **visual and interaction refinement pass**.
+
+The final website should preserve the existing website's content, layout, components, responsiveness, project information, animations, and functionality wherever they already work well.
+
+I want the website to feel significantly more distinctive through its **colour identity and initial hero experience**.
+
+---
+
+# 1. NEW OVERALL VISUAL IDENTITY
+
+Completely replace the current blue-dominant visual identity.
+
+The new identity should be:
+
+# BLACK × DEEP PURPLE × ELECTRIC VIOLET × SUBTLE RED
+
+The feeling should be:
+
+**dark**
+**futuristic**
+**technical**
+**intelligent**
+**mysterious**
+**AI research laboratory**
+**advanced hacker aesthetic**
+**premium**
+**cinematic**
+
+Think:
+
+> **A sophisticated AI engineer's private research terminal / AI laboratory.**
+
+NOT:
+
+* generic corporate portfolio
+* blue SaaS website
+* gaming website
+* cheesy cyberpunk
+* Matrix clone
+* cryptocurrency website
+* overly neon hacker website
+* childish “1337 hacker” aesthetic
+
+The design must remain professional enough for:
+
+* AI/ML hiring managers
+* senior ML engineers
+* researchers
+* applied scientists
+* technical founders
+* research labs
+
+---
+
+# 2. COLOUR PALETTE
+
+Remove the current blue theme.
+
+## BACKGROUNDS
+
+Use primarily:
+
+`#050308`
+
+`#08050D`
+
+`#0B0710`
+
+Near-black should dominate the entire website.
+
+Use extremely subtle gradients between black and deep purple.
+
+---
+
+## PRIMARY ACCENT — PURPLE
+
+Use:
+
+`#7C3AED`
+
+`#8B5CF6`
+
+`#A855F7`
+
+Purple should be the **main visual accent**.
+
+Use it for:
+
+* important headings
+* active navigation
+* buttons
+* glowing borders
+* architecture data flows
+* project highlights
+* interactive states
+* subtle background glows
+* hero visualizations
+
+---
+
+## SECONDARY PURPLE / MAGENTA
+
+Use sparingly:
+
+`#C026D3`
+
+Useful for:
+
+* gradients
+* selected elements
+* research indicators
+* occasional visual transitions
+
+---
+
+# 3. SUBTLE RED ACCENT
+
+Introduce a small amount of red:
+
+`#EF4444`
+
+`#B91C1C`
+
+But **red must remain secondary**.
+
+Purple = primary identity.
+
+Red = occasional signal.
+
+Use red only for things such as:
+
+* tiny status indicators
+* warning/suspicious indicators
+* small system markers
+* selected nodes
+* tiny borders
+* subtle highlights
+* occasional particles
+
+For example:
+
+`● RESEARCH / ACTIVE`
+
+The dot can be red while the text remains purple/white.
+
+Do NOT make red a major colour.
+
+Do NOT use red gradients everywhere.
+
+---
+
+# 4. ABSOLUTELY NO BLUE
+
+Search the entire existing website and replace the current blue colour system.
+
+Remove blue from:
+
+* buttons
+* links
+* gradients
+* shadows
+* borders
+* icons
+* hover states
+* charts
+* diagrams
+* glowing effects
+* navigation
+* project cards
+
+Do not introduce cyan as a replacement.
+
+The dominant accent should clearly read as **purple**, not blue-violet.
+
+---
+
+# 5. KEEP THE EXISTING WEBSITE STRUCTURE
+
+The current website already has the correct content and structure.
+
+Do NOT unnecessarily change:
+
+* section order
+* project information
+* navigation
+* typography hierarchy
+* project cards
+* existing functionality
+* responsiveness
+* GitHub functionality
+* links
+* resume functionality
+* existing animations that already work well
+
+Only refine them to fit the new visual identity.
+
+---
+
+# 6. CINEMATIC INITIAL INTRO — MAHEK SHAIKH
+
+This is the main new interaction I want.
+
+When the website is opened for the first time, create a short cinematic introduction before revealing the main hero.
+
+The screen should initially be almost completely black.
+
+Then very subtle purple particles / data points begin appearing.
+
+After that, individual letters of:
+
+# MAHEK SHAIKH
+
+should appear floating separately in the dark space.
+
+For example, initially:
+
+```text
+                         M
+
+
+       A
+
+
+                    H
+
+
+             E
+
+
+                              K
+```
+
+The letters should not simply fade in together.
+
+They should appear at slightly different positions and depths.
+
+Then, smoothly and organically, the letters should travel toward their correct positions.
+
+Eventually they form:
+
+# MAHEK SHAIKH
+
+The letters can have a very subtle electric-purple glow.
+
+A few extremely subtle red particles can move around the edges.
+
+The effect should feel as though:
+
+> **data fragments are assembling into an identity.**
+
+---
+
+# 7. NAME ANIMATION FEEL
+
+The animation must be:
+
+* cinematic
+* smooth
+* elegant
+* futuristic
+* mysterious
+* intelligent
+* premium
+
+NOT:
+
+* glitch-heavy
+* cheesy
+* overly fast
+* gaming-style
+* Matrix-style falling code
+* exploding particles
+* excessive RGB
+* giant neon effects
+
+The animation should feel **expensive and controlled**.
+
+Use smooth easing.
+
+Avoid linear movement.
+
+Use slight variations in speed and trajectory so the letters feel organic.
+
+---
+
+# 8. AFTER THE NAME FORMS
+
+Once:
+
+# MAHEK SHAIKH
+
+has formed, let it remain for a brief moment.
+
+Then smoothly transition it into the existing hero section.
+
+The name can move upward slightly / scale down subtly.
+
+Then reveal:
+
+**AI/ML ENGINEER & APPLIED AI RESEARCHER**
+
+Then the existing hero content appears.
+
+The transition should feel like:
+
+```text
+DATA
+ ↓
+IDENTITY
+ ↓
+INTELLIGENCE
+ ↓
+ENGINEERING
+```
+
+The animation should happen **only on the initial page load**.
+
+Do not replay it every time the user scrolls back to the top.
+
+Use session/local state if necessary so it does not become annoying.
+
+---
+
+# 9. HERO BACKGROUND
+
+Behind the existing hero, introduce a subtle AI research visualization.
+
+Do NOT use:
+
+* robot
+* AI brain
+* humanoid
+* generic stock illustration
+
+Instead create an abstract technical network.
+
+Dark background.
+
+Purple nodes.
+
+Thin purple connections.
+
+Very occasional red nodes.
+
+The network should represent:
+
+```text
+DATA
+ ↓
+REPRESENTATION
+ ↓
+MODEL
+ ↓
+EVALUATION
+ ↓
+DEPLOYMENT
+```
+
+Possible technology nodes:
+
+* Wav2Vec2
+* Transformers
+* LLaMA
+* RAG
+* FAISS
+* PINNs
+* YOLOv8
+* PyTorch
+* Bayesian Uncertainty
+
+Keep them subtle.
+
+They should support the hero rather than compete with the introduction.
+
+---
+
+# 10. HERO MICRO-DETAILS
+
+Add small terminal/research-style details where appropriate.
+
+Examples:
+
+```text
+> initializing_ai_profile...
+> loading_research_modules...
+> systems_online
+```
+
+or:
+
+```text
+SYSTEM / AI-ENGINEERING
+RESEARCH / ACTIVE
+LOCATION / MUMBAI
+```
+
+Keep these very small and subtle.
+
+Use monospace typography.
+
+Purple/gray text.
+
+A tiny red status dot can be used occasionally.
+
+Do NOT fill the hero with terminal text.
+
+---
+
+# 11. HERO HEADLINE
+
+Keep the existing main message if it is already working well.
+
+The visual treatment should emphasize:
+
+# I BUILD AI SYSTEMS THAT GO BEYOND PREDICTIONS.
+
+or the existing equivalent.
+
+Make the headline white/off-white with subtle purple emphasis.
+
+Do NOT make the entire headline neon purple.
+
+Use purple selectively.
+
+---
+
+# 12. PROJECT SECTION
+
+Keep the existing projects and their content.
+
+Do NOT rewrite project claims unless necessary for accuracy.
+
+However, visually transform the project cards into **AI system modules**.
+
+Use:
+
+* black backgrounds
+* thin purple borders
+* subtle purple glow
+* technical metadata
+* project number
+* category
+* technology chips
+* metrics
+* interactive hover states
+
+Example visual language:
+
+```text
+PROJECT / 01
+
+UNCERTAINTY-AWARE
+AUDIO CLASSIFICATION
+
+WAV2VEC2 • PYTORCH • BAYESIAN MC DROPOUT
+
+38.4%  →  75%
+
+[ EXPLORE SYSTEM ]
+```
+
+Use red only for very small status indicators.
+
+---
+
+# 13. PROJECT 01 — AUDIO AI
+
+Preserve the actual content.
+
+Show:
+
+**38.4% → 75% Classification Accuracy**
+
+Clearly distinguish this from a percentage improvement.
+
+Show the architecture visually:
+
+```text
+AUDIO
+ ↓
+WAV2VEC2
+ ↓
+SELF-SUPERVISED REPRESENTATION
+ ↓
+CLASSIFIER
+ ↓
+MONTE CARLO DROPOUT
+ ↓
+PREDICTION + UNCERTAINTY
+ ↓
+CALIBRATION
+```
+
+Use an animated waveform.
+
+Purple waveform.
+
+Very subtle red markers for uncertainty if visually appropriate.
+
+Status:
+
+**ONGOING RESEARCH**
+
+---
+
+# 14. PROJECT 02 — AGENTIC HONEYPOT
+
+Make this one of the strongest visual projects.
+
+Create a cyber-intelligence style interface, but keep it sophisticated.
+
+Architecture:
+
+```text
+SUSPECTED SCAMMER
+        ↓
+CONVERSATIONAL AGENT
+        ↓
+SESSION / CONTEXT
+        ↓
+LLM
+        ↓
+INFORMATION EXTRACTION
+        ↓
+PHONE / BANK / UPI / EMAIL / URL
+        ↓
+INTELLIGENCE REPORT
+```
+
+Use purple for the AI pipeline.
+
+Use tiny red highlights for suspicious entities.
+
+Display prominently:
+
+# TOP 2% OF 40,000+ PARTICIPANTS
+
+**AI Impact Buildathon 2026**
+
+This number is verified by the official certificate and must remain exactly as written.
+
+Do not replace it with 38,000+.
+
+---
+
+# 15. PROJECT 03 — PINN BATTERY RESEARCH
+
+Make this visually resemble scientific computing.
+
+Architecture:
+
+```text
+BATTERY DATA
+      +
+PHYSICS CONSTRAINTS
+      ↓
+PHYSICS-INFORMED LOSS
+      ↓
+NEURAL NETWORK
+      ↓
+DEGRADATION MODEL
+      ↓
+RUL + HEALTH SCORE
+```
+
+Use subtle mathematical notation in the background.
+
+Do NOT invent research metrics.
+
+Status:
+
+**ONGOING RESEARCH**
+
+---
+
+# 16. PROJECT 04 — LUNG CANCER
+
+Show:
+
+# 98.4% ACCURACY
+
+Architecture:
+
+```text
+CT SCAN
+ ↓
+RESNET-50
+ ↓
+FEATURE EXTRACTION
+ ↓
+ATTENTION
+ ↓
+DENSE ANN
+ ↓
+CLASSIFICATION
+```
+
+Do NOT describe this as:
+
+* clinically validated
+* diagnostic-grade
+* clinical accuracy
+* hospital-ready
+
+If a disclaimer is displayed, use:
+
+> Reported project performance; not a claim of clinical deployment performance.
+
+---
+
+# 17. PROJECT 05 — RAG
+
+Create an elegant retrieval-system visualization:
+
+```text
+DOCUMENTS
+ ↓
+CHUNKING
+ ↓
+EMBEDDINGS
+ ↓
+FAISS
+ ↓
+SEMANTIC RETRIEVAL
+ ↓
+LLAMA
+ ↓
+CONTEXT-AWARE RESPONSE
+```
+
+Use animated purple vectors flowing through the pipeline.
+
+---
+
+# 18. EXPERIENCE SECTION
+
+Keep the existing experience content.
+
+Change only its visual presentation.
+
+Make the timeline feel like a technical system log.
+
+Example:
+
+```text
+2025.06
+│
+├── CLINT SOLUTIONS
+│   ├── YOLOv8
+│   ├── PINN
+│   ├── FastAPI
+│   └── Dashboard
+│
+2025.04
+│
+├── ANUBRAIN TECHNOLOGIES
+│   ├── Medical AI
+│   ├── CNN
+│   └── Multimodal Learning
+│
+2024.06
+│
+└── THEOTHER 2 THIRDS
+    ├── LLaMA
+    ├── Mistral 7B
+    ├── Rasa
+    └── Transformer Classification
+```
+
+Use purple timeline lines.
+
+Small red status points can occasionally indicate milestones.
+
+---
+
+# 19. TECHNICAL SKILLS
+
+Keep the existing skills.
+
+Do not turn them into a huge logo wall.
+
+Create a subtle technical constellation / capability map.
+
+Center:
+
+# AI / ML ENGINEERING
+
+Around it:
+
+* LLMs
+* RAG
+* Agentic AI
+* Computer Vision
+* Audio AI
+* PINNs
+* Transformers
+* MLOps
+* PyTorch
+* Deployment
+
+On hover, reveal actual technologies used.
+
+For example:
+
+```text
+AUDIO AI
+   ↓
+Wav2Vec2
+MC Dropout
+Uncertainty
+Calibration
+```
+
+Another:
+
+```text
+GENAI
+   ↓
+LLaMA
+Mistral
+RAG
+FAISS
+Tool Calling
+ReAct
+```
+
+---
+
+# 20. RESEARCH SECTION
+
+Make this feel like a private research laboratory.
+
+Title:
+
+# RESEARCH / ACTIVE
+
+Use:
+
+**PURPLE = ACTIVE RESEARCH**
+
+**RED = VERY SUBTLE STATUS SIGNAL**
+
+Research modules:
+
+### Uncertainty-Aware Audio Content Classification
+
+**ONGOING RESEARCH**
+
+### Physics-Informed Neural Networks for Battery Degradation & RUL
+
+**ONGOING RESEARCH**
+
+Then:
+
+# PUBLICATIONS
+
+**2 Published Research Papers**
+
+Use only verified publication information.
+
+Do not fabricate paper titles, DOI, journal information, citation counts, or research results.
+
+---
+
+# 21. ENGINEERING SECTION
+
+Keep the existing:
+
+# ENGINEERING, NOT JUST AI.
+
+Visualize:
+
+```text
+PYTHON
+PYTORCH
+LINUX
+DOCKER
+FASTAPI
+FLASK
+AZURE
+GIT
+GPU OPTIMIZATION
+REST APIs
+HLD
+LLD
+```
+
+leading into:
+
+```text
+MODEL
+ ↓
+API
+ ↓
+APPLICATION
+ ↓
+DEPLOYMENT
+```
+
+Core message:
+
+# THE MODEL IS ONLY THE BEGINNING.
+
+---
+
+# 22. ACHIEVEMENTS
+
+Keep achievements accurate.
+
+Main achievement:
+
+# TOP 2% OF 40,000+ PARTICIPANTS
+
+**AI Impact Buildathon 2026**
+
+Use the official certificate as the source for this exact number.
+
+Also show:
+
+**GATE — DS/AI + CS**
+
+**2024 • 2025 • 2026**
+
+**9.24/10 CGPA**
+
+**University of Mumbai**
+
+**Multiple National AI Hackathons**
+
+Do not invent rankings or awards.
+
+---
+
+# 23. GITHUB
+
+Keep GitHub integration.
+
+GitHub:
+
+https://github.com/Mahek3108
+
+Use actual repositories.
+
+Do not invent repository statistics.
+
+Prioritize the strongest AI/ML projects.
+
+Style repository cards like technical modules rather than normal portfolio cards.
+
+---
+
+# 24. RESUME / LINKS
+
+Keep the existing resume download functionality.
+
+Use the actual resume.
+
+Keep:
+
+GitHub
+
+LinkedIn
+
+ORCID
+
+Email
+
+Do not replace real links with placeholders.
+
+---
+
+# 25. FOOTER
+
+Create a subtle dark research-terminal ending.
+
+Example:
+
+```text
+SYSTEM STATUS
+
+AI ENGINEERING     ONLINE
+RESEARCH           ACTIVE
+EXPERIMENTATION    ACTIVE
+DEPLOYMENT         READY
+```
+
+Then:
+
+# MAHEK SHAIKH
+
+with a subtle purple glow.
+
+A tiny red indicator can be used beside one status.
+
+Do not overdo the effect.
+
+---
+
+# 26. CURSOR
+
+If the existing site already has a custom cursor, recolor it to purple.
+
+If there isn't one, you may add a very subtle purple cursor effect on desktop.
+
+Small glowing purple point.
+
+Slight trailing effect.
+
+On hover:
+
+slightly expand.
+
+Disable on mobile.
+
+Do not make it huge.
+
+---
+
+# 27. ANIMATION PHILOSOPHY
+
+The site should feel alive but controlled.
+
+Use:
+
+* smooth easing
+* subtle parallax
+* data-flow animations
+* glowing nodes
+* gentle particle movement
+* elegant section reveals
+* metric count-up
+* subtle hover transitions
+
+Do NOT animate everything.
+
+The **floating-letter name introduction** should be the main cinematic animation.
+
+Everything else should support it.
+
+Respect:
+
+`prefers-reduced-motion`
+
+---
+
+# 28. PERFORMANCE
+
+Do not sacrifice performance.
+
+Prefer:
+
+* CSS animations
+* transform/opacity animations
+* lightweight canvas only where necessary
+* lazy loading
+* optimized assets
+* minimal dependencies
+
+Avoid unnecessarily heavy 3D libraries.
+
+The website should remain fast on normal laptops and mobile devices.
+
+---
+
+# 29. RESPONSIVENESS
+
+Preserve the existing responsive design.
+
+On mobile:
+
+* maintain black/purple identity
+* simplify particle effects
+* disable custom cursor
+* stack architecture diagrams
+* maintain readable typography
+* preserve the cinematic name animation but make it lightweight
+* ensure buttons remain easy to tap
+
+---
+
+# 30. CLAIM ACCURACY — DO NOT CHANGE
+
+The visual redesign must NOT introduce exaggerated claims.
+
+Use:
+
+### Audio
+
+**38.4% → 75% Classification Accuracy**
+
+Not:
+
+**75% improvement**
+
+### Lung Cancer
+
+**98.4% Accuracy**
+
+Not:
+
+**98.4% clinical diagnostic accuracy**
+
+### Monkeypox
+
+**94% Accuracy**
+
+Prefer:
+
+**94% accuracy on the project evaluation**
+
+Do not imply clinical validation.
+
+### Dolphin Detection
+
+Use:
+
+**98% — Reported Detection Performance**
+
+unless the exact standardized metric is verified.
+
+Do not automatically call it mAP, precision, recall, or F1.
+
+### PINN
+
+**ONGOING RESEARCH**
+
+No fabricated metrics.
+
+### Buildathon
+
+# TOP 2% OF 40,000+ PARTICIPANTS
+
+This is certificate-verified.
+
+Do not change the number.
+
+---
+
+# 31. FINAL QUALITY CHECK
+
+Before finishing, inspect the entire website.
+
+Verify:
+
+### VISUAL
+
+* No dominant blue remains.
+* Black is the dominant background.
+* Purple is the dominant accent.
+* Red is subtle.
+* No unnecessary neon.
+* No cheesy cyberpunk effects.
+* No excessive animation.
+
+### HERO
+
+* Floating-letter MAHEK SHAIKH introduction works.
+* Letters converge naturally.
+* Name transitions smoothly into the existing hero.
+* Animation only occurs on initial page load.
+
+### CONTENT
+
+* Existing project content preserved.
+* Existing metrics preserved accurately.
+* No fabricated research claims.
+* Buildathon says **Top 2% of 40,000+ participants**.
+* Ongoing research is clearly labelled.
+
+### ENGINEERING
+
+* No broken links.
+* No broken animations.
+* No console errors.
+* Responsive on desktop and mobile.
+* Existing functionality preserved.
+
+---
+
+# FINAL CREATIVE TARGET
+
+The website should feel like:
+
+> **You have entered the personal AI research terminal of Mahek Shaikh.**
+
+First:
+
+**darkness**
+
+Then:
+
+**floating data**
+
+Then:
+
+**M A H E K   S H A I K**
+
+The identity assembles.
+
+Then the visitor discovers:
+
+**AI/ML ENGINEERING**
+
+**AGENTIC AI**
+
+**LLMs**
+
+**COMPUTER VISION**
+
+**AUDIO AI**
+
+**UNCERTAINTY**
+
+**PINNs**
+
+**RAG**
+
+**RESEARCH**
+
+**DEPLOYMENT**
+
+**SYSTEMS**
+
+The visual experience should make the visitor curious enough to keep scrolling.
+
+The final impression should be:
+
+# TECHNICAL. MYSTERIOUS. INTELLIGENT. ENGINEERED.
+
+Not merely:
+
+# “PRETTY PORTFOLIO.”
+
+**Do not rebuild what is already working. Preserve the existing site and apply this visual/interaction transformation carefully.**

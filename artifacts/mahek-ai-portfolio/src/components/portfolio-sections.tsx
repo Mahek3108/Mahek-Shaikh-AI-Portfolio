@@ -30,7 +30,7 @@ const projects: Project[] = [
     title: 'Uncertainty-Aware Audio Content Classification',
     description: 'Developing an uncertainty-aware environmental sound classification framework using Wav2Vec2 self-supervised representations with Bayesian Monte Carlo Dropout and calibration analysis.',
     status: 'ONGOING RESEARCH', metric: '38.4% → 75%', metricLabel: 'classification accuracy · reported result',
-    accent: '#8aaeff', tags: ['Wav2Vec2', 'MC Dropout', 'Predictive Entropy', 'Calibration'],
+    accent: '#A855F7', tags: ['Wav2Vec2', 'MC Dropout', 'Predictive Entropy', 'Calibration'],
     problem: 'Environmental sound classifiers can be right for the wrong reasons. The system needs a useful prediction and a transparent account of confidence.',
     approach: 'Self-supervised audio representations feed a classification head, then repeated stochastic forward passes estimate predictive uncertainty.',
     result: 'Improved the reported classification accuracy from a 38.4% baseline to 75%. Uncertainty estimation, calibration, and reliability analysis remain under investigation.',
@@ -43,7 +43,7 @@ const projects: Project[] = [
     title: 'Agentic AI Honeypot for Scam Intelligence',
     description: 'An LLM-powered multi-turn conversational honeypot designed to engage suspected scammers and extract actionable intelligence.',
     metric: 'Top 2%', metricLabel: 'of 40,000+ participants · AI Impact Buildathon 2026',
-    accent: '#b1a1f4', tags: ['Python', 'Flask', 'Gemini', 'OpenRouter', 'Tool Calling'],
+    accent: '#C026D3', tags: ['Python', 'Flask', 'Gemini', 'OpenRouter', 'Tool Calling'],
     problem: 'Scam conversations contain fragmented signals: phone numbers, bank details, UPI handles, email addresses, and phishing URLs.',
     approach: 'A context-aware conversational agent sustains a multi-turn interaction, chooses tools, and routes extracted entities into an intelligence report.',
     result: 'The project reached the AI Impact Buildathon 2026 Grand Finale / Finalist stage. The certificate-verified result is Top 2% of 40,000+ participants.',
@@ -56,7 +56,7 @@ const projects: Project[] = [
     title: 'Physics-Informed Neural Networks for Li-ion Battery Degradation & RUL Prediction',
     description: 'Developing a Physics-Informed Neural Network that integrates electrochemical degradation constraints with data-driven learning to estimate battery Remaining Useful Life and battery health scores.',
     status: 'ONGOING RESEARCH',
-    accent: '#92c9b3', tags: ['PINNs', 'RUL Prediction', 'Battery Degradation', 'Health Scoring'],
+    accent: '#7C3AED', tags: ['PINNs', 'RUL Prediction', 'Battery Degradation', 'Health Scoring'],
     problem: 'Battery degradation is governed by domain dynamics that purely data-driven models may not respect outside their training distribution.',
     approach: 'Battery / sensor data and physics constraints are combined inside a physics-informed loss before degradation modeling.',
     result: 'The research is ongoing. No accuracy, RMSE, MAE, R², or percentage improvement is claimed at this stage.',
@@ -68,7 +68,7 @@ const projects: Project[] = [
     title: 'Lung Cancer Classification Using Feature Attention Pyramid Network',
     description: 'Achieved 98.4% accuracy on CT-scan classification using a pretrained ResNet-50 feature extractor combined with an attention-based feature processing mechanism and dense ANN classifier.',
     metric: '98.4%', metricLabel: 'accuracy · reported project performance',
-    accent: '#cf9fbd', tags: ['ResNet-50', 'CNN', 'Attention', 'ANN', 'Medical Imaging'],
+    accent: '#C026D3', tags: ['ResNet-50', 'CNN', 'Attention', 'ANN', 'Medical Imaging'],
     problem: 'CT-scan classification requires multi-scale feature processing rather than relying on a single undifferentiated representation.',
     approach: 'A pretrained ResNet-50 extracts features, an attention pyramid processes salient patterns, and a dense ANN performs classification.',
     result: 'Reported project performance: 98.4% accuracy. This is not a claim of clinical deployment performance.',
@@ -80,7 +80,7 @@ const projects: Project[] = [
     id: 'rag', number: '05', category: 'GENERATIVE AI  /  RAG  /  NLP',
     title: 'LLM & RAG Model for Financial Data Analysis',
     description: 'A retrieval-augmented system that moves from financial documents to semantically grounded, context-aware responses.',
-    accent: '#c3b48b', tags: ['LLaMA', 'FAISS', 'Sentence Transformers', 'RAG', 'Prompt Engineering'],
+    accent: '#8B5CF6', tags: ['LLaMA', 'FAISS', 'Sentence Transformers', 'RAG', 'Prompt Engineering'],
     problem: 'A language model alone does not know the current contents of a private financial corpus.',
     approach: 'Documents are ingested, chunked, embedded, retrieved through FAISS, and assembled into a context window for LLaMA.',
     result: 'The system architecture makes retrieval visible: Query → Retrieval → Context → LLM → Answer.',
@@ -110,16 +110,16 @@ const skillUsage: Record<string, string> = {
 };
 
 const experience = [
-  { date: '06/2025 — 09/2025', role: 'Data Science Intern', org: 'Clint Solutions', color: '#8aaeff', intro: 'Built data products that moved from raw collection to public-facing monitoring.', cards: [
+  { date: '06/2025 — 09/2025', role: 'Data Science Intern', org: 'Clint Solutions', color: '#A855F7', intro: 'Built data products that moved from raw collection to public-facing monitoring.', cards: [
     ['Government-Recognized Beach Cleanup Dashboard', 'Dash + Flask + FastAPI + Render', 'Data → Backend / API → Processing → Dashboard → Real-Time Coastal Monitoring'],
     ['Dolphin Detection', '98% — Reported Detection Performance', 'Web Scraping → Dataset Creation → AI Annotation → YOLOv8 → Threshold + NMS Optimization'],
     ['Battery Research', 'Physics-Informed Neural Network', 'Battery degradation modeling · RUL estimation · Health scoring · Physics-based constraints'],
   ]},
-  { date: '04/2025 — 05/2025', role: 'Machine Learning Intern', org: 'Anubrain Technologies', color: '#b1a1f4', intro: 'Applied deep learning to medical imaging and multimodal rehabilitation assessment.', cards: [
+  { date: '04/2025 — 05/2025', role: 'Machine Learning Intern', org: 'Anubrain Technologies', color: '#C026D3', intro: 'Applied deep learning to medical imaging and multimodal rehabilitation assessment.', cards: [
     ['Monkeypox Classification', '94% accuracy on the project evaluation', 'CNN · transfer learning · medical imaging'],
     ['Multimodal Assessment', 'Sensor fusion', 'Motion-capture data · multimodal deep learning · rehabilitation assessment'],
   ]},
-  { date: '06/2024 — 08/2024', role: 'Data Science Intern', org: 'TheOther 2 Thirds Consulting LLP', color: '#92c9b3', intro: 'Production-minded LLM engineering: models, conversational analytics, dashboards, and deployment.', cards: [
+  { date: '06/2024 — 08/2024', role: 'Data Science Intern', org: 'TheOther 2 Thirds Consulting LLP', color: '#7C3AED', intro: 'Production-minded LLM engineering: models, conversational analytics, dashboards, and deployment.', cards: [
     ['Multi-classification Transformers', '30% → 95% Classification Accuracy', 'Data curation · augmentation · fine-tuning'],
     ['Conversational Analytics', 'LLaMA + Mistral 7B + Rasa', 'AI chatbots · dashboard navigation · insight explanation · Azure · Linux · Git'],
   ]},

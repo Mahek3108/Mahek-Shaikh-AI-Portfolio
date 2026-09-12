@@ -32,7 +32,7 @@ function CinematicIntro() {
   useEffect(() => {
     if (phase === 'done') return;
     window.sessionStorage.setItem('mahek-intro-seen', '1');
-    const closeTimer = window.setTimeout(() => setPhase('closing'), 3300);
+    const closeTimer = window.setTimeout(() => setPhase('closing'), 3800);
     return () => {
       window.clearTimeout(closeTimer);
     };

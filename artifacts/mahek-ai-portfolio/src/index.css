@@ -75,7 +75,8 @@ a { text-decoration: none; }
 .display { font-family: 'Space Grotesk', sans-serif; }
 .eyebrow { color: #a855f7; font-family: var(--app-font-mono); font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; }
 .section-rule { border-top: 1px solid rgba(139,92,246,.16); }
-.glass { background: linear-gradient(145deg, rgba(20,10,31,.92), rgba(8,5,13,.76)); border: 1px solid rgba(139,92,246,.18); box-shadow: 0 18px 55px rgba(0,0,0,.28); }
+.glass { background: linear-gradient(145deg, rgba(20,10,31,.92), rgba(8,5,13,.76)); border: 1px solid rgba(139,92,246,.18); box-shadow: 0 18px 55px rgba(0,0,0,.28); transition: border-color .35s ease, box-shadow .35s ease, transform .35s ease; }
+.glass:hover { border-color: rgba(168,85,247,.38); box-shadow: 0 18px 55px rgba(0,0,0,.28), 0 0 28px rgba(124,58,237,.08); }
 .grid-card { background-image: linear-gradient(rgba(139,92,246,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(139,92,246,.06) 1px, transparent 1px); background-size: 32px 32px; }
 .text-dim { color: #9890a8; }
 .accent-line { background: linear-gradient(90deg, #7c3aed, #a855f7); }
@@ -134,6 +135,8 @@ a { text-decoration: none; }
 [class*="bg-[#202c47]"] { background-color: #24103b !important; }
 [class*="bg-[#11151e]"], [class*="bg-[#11151d]"], [class*="bg-[#10141d]"], [class*="bg-[#0e121a]"], [class*="bg-[#151923]"] { background-color: rgba(11,7,16,.88) !important; }
 
-#home::before { content: ''; position: absolute; inset: 9% 0 18%; pointer-events: none; opacity: .42; background-image: radial-gradient(circle at 73% 20%, rgba(168,85,247,.85) 0 1px, transparent 2px), radial-gradient(circle at 82% 34%, rgba(139,92,246,.7) 0 1px, transparent 2px), radial-gradient(circle at 68% 46%, rgba(124,58,237,.72) 0 1px, transparent 2px), radial-gradient(circle at 88% 64%, rgba(168,85,247,.6) 0 1px, transparent 2px), linear-gradient(32deg, transparent 48.9%, rgba(139,92,246,.16) 49%, transparent 49.4%), linear-gradient(143deg, transparent 49%, rgba(168,85,247,.12) 49.2%, transparent 49.6%); background-size: 100% 100%; mask-image: radial-gradient(ellipse at 75% 42%, black, transparent 66%); }
+#home::before { content: ''; position: absolute; inset: 9% 0 18%; pointer-events: none; opacity: .42; background-image: radial-gradient(circle at 73% 20%, rgba(168,85,247,.85) 0 1px, transparent 2px), radial-gradient(circle at 82% 34%, rgba(139,92,246,.7) 0 1px, transparent 2px), radial-gradient(circle at 68% 46%, rgba(124,58,237,.72) 0 1px, transparent 2px), radial-gradient(circle at 88% 64%, rgba(168,85,247,.6) 0 1px, transparent 2px), linear-gradient(32deg, transparent 48.9%, rgba(139,92,246,.16) 49%, transparent 49.4%), linear-gradient(143deg, transparent 49%, rgba(168,85,247,.12) 49.2%, transparent 49.6%); background-size: 100% 100%; mask-image: radial-gradient(ellipse at 75% 42%, black, transparent 66%); animation: networkDrift 18s ease-in-out infinite alternate; }
 #home::after { content: '> initializing_ai_profile...   /   research: active   /   systems: online'; position: absolute; right: 2rem; bottom: 1.25rem; color: rgba(168,85,247,.52); font-family: var(--app-font-mono); font-size: .58rem; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+@keyframes networkDrift { from { transform: translate3d(-5px, 2px, 0) scale(1); opacity: .3; } to { transform: translate3d(5px, -3px, 0) scale(1.015); opacity: .48; } }
 @media (max-width: 700px) { #home::after { right: 1.25rem; left: 1.25rem; font-size: .5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }
+@media (prefers-reduced-motion: reduce) { #home::before { animation: none; } }

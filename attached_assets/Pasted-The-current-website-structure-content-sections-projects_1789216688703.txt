@@ -1,0 +1,181 @@
+The current website structure, content, sections, projects, diagrams, functionality, and layout are already PERFECT. DO NOT redesign, restructure, remove, or replace anything.
+
+The previous visual changes were NOT implemented properly. I need you to FIX ONLY the visual layer now.
+
+### 1. COLOR SCHEME — MUST BE VISIBLE
+
+The entire website must have a clearly visible **black + deep purple + electric violet + subtle red** aesthetic.
+
+Use:
+
+* Background: near-black / black with very subtle purple tint
+* Primary: electric violet / purple
+* Secondary: deep purple / magenta
+* Accent: subtle dark/crimson red
+
+Suggested colors:
+#050308
+#08050D
+#0B0710
+#6D28D9
+#7C3AED
+#8B5CF6
+#A855F7
+#C026D3
+#EF4444
+#B91C1C
+
+IMPORTANT:
+
+* Purple must be the dominant accent.
+* Red MUST actually be visible in the design.
+* Add subtle red highlights to selected borders, glows, particles, status indicators, tiny UI details, hover states, or dividers.
+* Do NOT use blue, cyan, turquoise, or green anywhere.
+* Keep red subtle and sophisticated, NOT bright/gamery.
+
+### 2. CINEMATIC "MAHEK SHAIKH" INTRO ANIMATION — MUST ACTUALLY EXIST
+
+Add a cinematic intro animation that plays ONLY once when the website initially loads.
+
+Sequence:
+
+1. Start with an almost completely black screen.
+2. Very subtle purple particles / tiny data points slowly appear.
+3. Individual letters of:
+
+MAHEK SHAIKH
+
+appear separately across the screen.
+
+The letters should NOT simply fade in as a normal text animation.
+
+They should feel like floating pieces of a digital/AI system:
+
+* different starting positions
+* slight movement
+* subtle opacity changes
+* small purple glow
+* tiny particles/data traces around them
+* a few very subtle red particles mixed into the background
+
+4. After appearing separately, the letters smoothly travel toward their correct positions.
+
+5. They converge and form:
+
+MAHEK SHAIKH
+
+as one clean, powerful name.
+
+6. Once formed, hold the name briefly with a sophisticated purple glow.
+
+7. Then smoothly transition/fade/slide into the EXISTING hero section.
+
+The transition must feel cinematic and premium — like an AI research system initializing.
+
+DO NOT make it cheesy cyberpunk.
+DO NOT use excessive glitch effects.
+DO NOT make it look like a gaming website.
+
+Think:
+"AI research lab + advanced engineering system + mysterious cinematic introduction."
+
+### 3. HERO BACKGROUND
+
+Behind the existing hero section, add a VERY subtle AI/data network.
+
+It can contain faint connecting lines and nodes representing:
+
+DATA → REPRESENTATION → MODEL → EVALUATION → DEPLOYMENT
+
+and subtle technical labels such as:
+
+Wav2Vec2
+Transformers
+LLaMA
+RAG
+FAISS
+PINNs
+YOLOv8
+PyTorch
+Bayesian Uncertainty
+
+These should remain background elements and MUST NOT interfere with readability.
+
+Use mostly purple with tiny red highlights.
+
+### 4. MICRO TERMINAL DETAILS
+
+Add very subtle terminal-style text in appropriate places, for example:
+
+> initializing_ai_profile...
+> loading_research_modules...
+> uncertainty_engine_online
+> deployment_pipeline_ready
+> systems_online
+
+Keep these extremely subtle and sparse.
+
+### 5. ANIMATION QUALITY
+
+The site currently feels too static.
+
+Add subtle motion where appropriate:
+
+* floating particles
+* glowing nodes
+* gentle background movement
+* project-card hover glow
+* purple/red border glow on hover
+* smooth section transitions
+* subtle text reveal
+* technical elements moving slowly in the background
+
+DO NOT over-animate the page.
+
+The animations should make the portfolio feel like an engineered AI system, not a template.
+
+### 6. VERY IMPORTANT — PRESERVE EVERYTHING
+
+Do NOT:
+
+* change project content
+* change metrics
+* rewrite descriptions
+* remove sections
+* change existing diagrams
+* change GitHub links
+* change resume links
+* change experience
+* change skills
+* change page structure
+* replace the existing design with a new template
+* introduce blue/cyan/green
+
+ONLY improve the visual styling and animation layer.
+
+### FINAL VISUAL TARGET
+
+The final result should feel like:
+
+"An elite AI/ML engineer's personal research and engineering interface."
+
+Black background.
+Deep purple atmosphere.
+Electric violet highlights.
+Subtle crimson/red technical accents.
+Cinematic MAHEK SHAIKH opening animation.
+Subtle AI/data-system background.
+Premium, intelligent, technical, mysterious.
+
+NOT generic portfolio.
+NOT neon gaming.
+NOT cheesy hacker aesthetic.
+
+Before finishing, VERIFY visually that:
+
+1. Red accents are actually visible.
+2. The MAHEK SHAIKH floating-letter intro actually plays on initial load.
+3. Letters appear separately and then converge.
+4. Purple/black is clearly dominant.
+5. No blue/cyan/green remains.
+6. Existing website content and structure are unchanged.
